@@ -1,0 +1,215 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Ajeng Julia Zahrah</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .about-section {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        margin-top: 100px;
+      }
+
+      .skill-badge {
+        background: linear-gradient(45deg, #c5f802, #35c2dd);
+        color: #333;
+        border: none;
+        margin: 5px;
+        font-weight: 500;
+      }
+
+      .timeline-item {
+        border-left: 3px solid #1e90ff;
+        padding-left: 20px;
+        margin-bottom: 30px;
+        position: relative;
+      }
+
+      .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: -10px;
+        top: 0;
+        width: 17px;
+        height: 17px;
+        background: #1e90ff;
+        border-radius: 50%;
+      }
+
+      .stat-item {
+        padding: 15px;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+      }
+
+      .stat-item:hover {
+        transform: translateY(-5px);
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .counter {
+        font-size: 24px;
+        font-weight: bold;
+        color: #1e90ff;
+      }
+
+      .info-container {
+        background: linear-gradient(
+          135deg,
+          rgba(197, 248, 2, 0.1),
+          rgba(53, 194, 221, 0.1)
+        );
+        border-radius: 15px;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <img src="logo.png" alt="Logo" />
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="about-section">
+        <div class="row">
+          <div class="col-md-4 text-center mb-4">
+            <img
+              src="Ajeng.jpeg"
+              alt="Ajeng Julia Zahrah"
+              class="img-fluid rounded-circle mb-3"
+              style="width: 200px; height: 200px; object-fit: cover"
+            />
+            <h2 class="mb-3">Ajeng Julia Zahrah</h2>
+            <p class="text-muted">Content Editor at Si'Mbah_Research</p>
+
+            <div class="info-container p-4">
+              <div class="row g-3">
+                <div class="col-md-4">
+                  <div class="stat-item">
+                    <i
+                      class="fas fa-tasks mb-2"
+                      style="color: #1e90ff; font-size: 24px"
+                    ></i>
+                    <h5>Projects</h5>
+                    <span class="counter">50+</span>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="stat-item">
+                    <i
+                      class="fas fa-users mb-2"
+                      style="color: #1e90ff; font-size: 24px"
+                    ></i>
+                    <h5>Team</h5>
+                    <span class="counter">15+</span>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="stat-item">
+                    <i
+                      class="fas fa-star mb-2"
+                      style="color: #1e90ff; font-size: 24px"
+                    ></i>
+                    <h5>Years</h5>
+                    <span class="counter">2+</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <h3 class="mb-4">Professional Summary</h3>
+            <p>
+              A detail-oriented content editor with a perfectionist mindset and
+              passion for innovation. Known for taking ownership of projects and
+              consistently delivering high-quality results. Thrives in dynamic
+              environments where creativity meets responsibility.
+            </p>
+
+            <h4 class="mt-4 mb-3">Key Skills</h4>
+            <div class="mb-4">
+              <span class="badge skill-badge">Content Creation</span>
+              <span class="badge skill-badge">Editorial Management</span>
+              <span class="badge skill-badge">Project Leadership</span>
+              <span class="badge skill-badge">Quality Assurance</span>
+              <span class="badge skill-badge">Creative Innovation</span>
+              <span class="badge skill-badge">Team Collaboration</span>
+            </div>
+
+            <h4 class="mt-4 mb-3">Professional Journey</h4>
+            <div class="timeline-item">
+              <h5>Content Editor</h5>
+              <p class="text-muted">Si'Mbah_Research</p>
+              <p>
+                Leading content strategy and editorial initiatives while
+                maintaining exceptional quality standards. Implemented
+                innovative approaches to content development and team
+                collaboration.
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <h5>Personal Philosophy</h5>
+              <p>
+                "Excellence is not a skill, it's an attitude. I believe in
+                pushing boundaries while maintaining the highest standards of
+                quality in everything I do."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-section mt-5 text-center">
+          <h4 class="mb-4">Connect With Me</h4>
+          <div class="social-links">
+            <a href="https://www.instagram.com/ihfan_sholih" class="instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/share/19VHrsG2ou/?mibextid=JRoKGi"
+              class="facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.tiktok.com/@simbah_research?_t=8rQs4AaMY4n&_r=1"
+              class="tiktok"
+            >
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="YOUR_LINKEDIN_URL" class="linkedin">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+```

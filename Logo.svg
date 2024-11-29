@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#1e90ff"/>
+  
+  <!-- Letter A -->
+  <path d="M50 130 L85 60 L120 130 M60 105 L110 105" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="15"
+        stroke-linecap="round"/>
+  
+  <!-- Letter Z -->
+  <path d="M125 70 L155 70 L125 120 L155 120" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="15"
+        stroke-linecap="round"/>
+</svg>
